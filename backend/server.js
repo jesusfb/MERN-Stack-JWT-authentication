@@ -6,7 +6,8 @@ import dbConnect from "./config/dbConnect.js";
 import userRoutes from "./routes/userRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import path from "path";
-
+import cors from "cors";
+app.use(cors());
 dbConnect();
 
 const app = express();
