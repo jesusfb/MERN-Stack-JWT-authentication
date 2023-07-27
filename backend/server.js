@@ -7,10 +7,10 @@ import userRoutes from "./routes/userRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import path from "path";
 import cors from "cors";
-app.use(cors());
 dbConnect();
 
 const app = express();
+app.use(cors());
 
 app.use(express.json());
 app.use(urlencoded({ extended: true }));
