@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&family=Ubuntu&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh !important;
+}
+
+.cardupdate {
+  padding: 100px;
+  width: 50%;
+}
+.homebutton {
+  padding-top: 30px;
+}
+.login-form {
+  padding: 50px;
+}
+.login-form input {
+  height: 50px;
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-color: lightcoral;
+  border-width: 0.5px;
+}
+.login-form label {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+.loginbutton {
+  width: 100px;
+  background-color: #28282b;
+  padding: 5px;
+  color: white !important;
+  border-radius: 6px;
+  border: none;
+}
+.home-button a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  background-color: #28282b;
+  padding: 15px;
+  color: white !important;
+  border-radius: 6px;
+  border: none;
+}
+
+.notauser {
+  padding-top: 10px;
+}
+
+.home-icon a {
+  width: 30px;
+  background-color: #28282b;
+  color: white;
+  font-size: 22px;
+
+  padding: 5px;
+  border-radius: 4px;
+}
