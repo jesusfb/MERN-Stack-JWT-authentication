@@ -6,3 +6,6 @@ Using centralized data store, Redux toolkit.
 # Or you just need to run the server.js file and it will start the build folder of the the frontend in the root 
 
  A MERN stack JWT authentication boilerplate by Nuren Shams Chowdhury with centralized data store
+
+
+# hosted in https://authentication-szar.onrender.com/
