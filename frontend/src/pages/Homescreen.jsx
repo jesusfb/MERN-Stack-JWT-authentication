@@ -16,9 +16,9 @@ const Homescreen = () => {
         ) : (
           <Card className="cardupdate">
             <h4>
-              CRUD operation with JWT authentication using React Js in the
-              frontend, MongoDB as Database and Node js framework Express JS to
-              create API
+              CRUD operation with JWT authentication using React Js in web and
+              React Native for Android and ios, MongoDB as Database and Node js
+              framework Express JS to create API
             </h4>
             <div className="d-flex justify-content-around homebutton">
               <div className="home-button">
