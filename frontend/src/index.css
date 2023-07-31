@@ -46,6 +46,7 @@ a {
   border-radius: 6px;
   border: none;
 }
+
 .home-button a {
   text-decoration: none;
   color: white;
@@ -66,7 +67,30 @@ a {
   background-color: #28282b;
   color: white;
   font-size: 22px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 5px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .login-form input {
+    width: 280px;
+  }
+  .home-button a {
+    width: 50px;
+    padding: 10px;
+  }
+  .screen {
+    max-height: auto;
+    max-width: 100%;
+  }
+  .cardupdate {
+    padding: 0;
+    width: auto;
+  }
+  .cardupdate h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }

@@ -53,7 +53,7 @@ const Register = () => {
           onSubmit={handleSubmit}
           className="login-form card flex-column d-flex"
         >
-          <div className="home-icon my-4">
+          <div className="home-icon ">
             <Link to="/">
               <GoHomeFill />
             </Link>

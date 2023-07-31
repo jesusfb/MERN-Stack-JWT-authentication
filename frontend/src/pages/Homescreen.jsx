@@ -8,14 +8,14 @@ const Homescreen = () => {
 
   return (
     <div className="screen">
-      <div className="d-flex flex-column justify-content-center align-items-center">
+      <div className="d-flex justify-content-center align-items-center">
         {userData ? (
           <Card className="cardupdate">
             <h1>We can start building a world here!</h1>
           </Card>
         ) : (
-          <Card className="cardupdate">
-            <h4>
+          <Card className="cardupdate p-4 m-4 rounded-full">
+            <h4 className="d-flex flex-wrap">
               CRUD operation with JWT authentication using React Js for the Web
               and React Native for Android and IOS app , MongoDB as Database and
               Node js framework Express JS to create API
