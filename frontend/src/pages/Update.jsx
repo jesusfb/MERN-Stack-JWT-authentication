@@ -40,6 +40,7 @@ const Update = () => {
       }
     }
   };
+
   useEffect(() => {
     setName(userData.name);
     setUserName(userData.username);
